@@ -58,7 +58,8 @@
         app:layout_constraintEnd_toStartOf="@+id/btn_cards"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_app_bar_bottom" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_app_bar_bottom"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
     <Button
         android:id="@+id/btn_cards"
@@ -70,7 +71,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_floating_button"
         app:layout_constraintEnd_toStartOf="@+id/btn_chips"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_floating_button" />
+        app:layout_constraintStart_toEndOf="@+id/btn_floating_button"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
     <Button
         android:id="@+id/btn_chips"
@@ -82,7 +84,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_cards"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_cards" />
+        app:layout_constraintStart_toEndOf="@+id/btn_cards"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
 
     <Button
@@ -98,7 +101,8 @@
         app:layout_constraintEnd_toStartOf="@+id/btn_menus"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_floating_button" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_floating_button"
+        style="@style/Widget.MaterialComponents.Button.TextButton" />
 
     <Button
         android:id="@+id/btn_menus"
@@ -110,7 +114,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_dialogs"
         app:layout_constraintEnd_toStartOf="@+id/btn_drawer"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_dialogs" />
+        app:layout_constraintStart_toEndOf="@+id/btn_dialogs"
+        style="@style/Widget.MaterialComponents.Button.TextButton" />
 
     <Button
         android:id="@+id/btn_drawer"
@@ -122,7 +127,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_menus"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_menus" />
+        app:layout_constraintStart_toEndOf="@+id/btn_menus"
+        style="@style/Widget.MaterialComponents.Button.TextButton" />
 
     <Button
         android:id="@+id/btn_pickers"
@@ -176,7 +182,8 @@
         app:layout_constraintEnd_toStartOf="@+id/btn_sheets_botton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_pickers" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_pickers"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
     <Button
         android:id="@+id/btn_sheets_botton"
@@ -188,7 +195,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_schitches"
         app:layout_constraintEnd_toStartOf="@+id/btn_sheets_side"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_schitches" />
+        app:layout_constraintStart_toEndOf="@+id/btn_schitches"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
     <Button
         android:id="@+id/btn_sheets_side"
@@ -200,7 +208,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_sheets_botton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_sheets_botton" />
+        app:layout_constraintStart_toEndOf="@+id/btn_sheets_botton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
 
     <Button
         android:id="@+id/btn_sliders"
@@ -210,12 +219,13 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Sliders"
+        android:text="@string/sliders"
         app:layout_constraintBottom_toTopOf="@+id/btn_text_fields"
         app:layout_constraintEnd_toStartOf="@+id/btn_snackbars"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_schitches" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_schitches"
+        style="@style/Widget.MaterialComponents.Button.TextButton" />
 
     <Button
         android:id="@+id/btn_snackbars"
@@ -227,7 +237,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_sliders"
         app:layout_constraintEnd_toStartOf="@+id/btn_tabs"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_sliders" />
+        app:layout_constraintStart_toEndOf="@+id/btn_sliders"
+        style="@style/Widget.MaterialComponents.Button.TextButton" />
 
     <Button
         android:id="@+id/btn_tabs"
@@ -239,7 +250,8 @@
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_snackbars"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_snackbars" />
+        app:layout_constraintStart_toEndOf="@+id/btn_snackbars"
+        style="@style/Widget.MaterialComponents.Button.TextButton" />
 
     <Button
         android:id="@+id/btn_text_fields"

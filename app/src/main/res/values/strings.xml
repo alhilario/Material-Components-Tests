@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Material Test</string>
+
+    <!-- Button text -->
+    <string name="app_bar_bottom">Bar Bottom</string>
+    <string name="app_bar_top">Bar Top</string>
+    <string name="bottom_navigation">Navigation</string>
+    <string name="floating_button">FAB</string>
+    <string name="cards">Cards</string>
+    <string name="chips">Chips</string>
+    <string name="dialogs">Dialogs</string>
+    <string name="menus">Menus</string>
+    <string name="navigation_drawer">Drawer</string>
+    <string name="pickers">Pickers</string>
+    <string name="checkboxes">Checkboxes</string>
+    <string name="radios">Radios</string>
+    <string name="switches">Control Switches</string>
+    <string name="sheets_bottom">Sheets Bottom</string>
+    <string name="sheets_side">Sheets Sides</string>
+    <string name="sliders">Sliders</string>
+    <string name="snackbars">Snackbars</string>
+    <string name="tabs">Tabs</string>
+    <string name="text_fields">Text Fields</string>
+</resources>

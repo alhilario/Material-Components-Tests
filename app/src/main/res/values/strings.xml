@@ -21,7 +21,7 @@
     <string name="snackbars">Snackbars</string>
     <string name="tabs">Tabs</string>
     <string name="text_fields">Text Fields</string>
-    
+
     <!-- Menus text -->
     <string name="search">Search</string>
     <string name="add_art">Add Art</string>
@@ -29,6 +29,9 @@
     <string name="favorite">Favoritos</string>
     <string name="more">Otros</string>
     <string name="about">Nosotros</string>
+    <string name="products">Productos</string>
+    <string name="stores">Tiendas</string>
+    <string name="offers">Ofertas</string>
 
     <string name="ojala">
         Ojalá que las hojas no te toquen el cuerpo cuando caigan

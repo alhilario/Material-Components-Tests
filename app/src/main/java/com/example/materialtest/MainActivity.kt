@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.materialtest.databinding.ActivityMainBinding
 import com.example.materialtest.ui.app_bars.BarsBottom
 import com.example.materialtest.ui.app_bars.BarsTop
+import com.example.materialtest.ui.navigation.NavigationBottom
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,6 +23,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnAppBarTop.setOnClickListener {
             val intent = Intent(this, BarsTop::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnBottomNavigation.setOnClickListener {
+            val intent = Intent(this, NavigationBottom::class.java)
             startActivity(intent)
         }
 

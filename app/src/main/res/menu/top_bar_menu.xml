@@ -3,6 +3,12 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/app_bar_favotite"
+        android:icon="@drawable/ic_favorite_white_24dp"
+        android:title="@string/favorite"
+        app:showAsAction="ifRoom" />
+
+    <item
         android:id="@+id/app_bar_search"
         android:icon="@drawable/ic_search_white_24dp"
         android:title="@string/search"
@@ -10,12 +16,12 @@
         app:actionViewClass="android.widget.SearchView" />
 
     <item
-        android:id="@+id/add_artista"
-        android:title="@string/add_art"
-        />
+        android:id="@+id/app_bar_more"
+        android:title="@string/more"
+        app:showAsAction="never" />
 
     <item
-        android:id="@+id/add_movie"
-        android:title="@string/add_movie"
-        />
+        android:id="@+id/app_bar_about"
+        android:title="@string/about"
+        app:showAsAction="never" />
 </menu>

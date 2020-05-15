@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.materialtest.databinding.ActivityMainBinding
 import com.example.materialtest.ui.app_bars.BarsBottom
+import com.example.materialtest.ui.app_bars.BarsTop
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,6 +17,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnAppBarBottom.setOnClickListener{
             val intent = Intent(this, BarsBottom::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnAppBarTop.setOnClickListener {
+            val intent = Intent(this, BarsTop::class.java)
             startActivity(intent)
         }
 

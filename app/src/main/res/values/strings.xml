@@ -157,4 +157,9 @@
     <string name="page_title">Hurtado Store</string>
     <string name="mail">Mail</string>
     <string name="copy">Copiar</string>
+    <string name="earring">Aretes Tipo Orquidea</string>
+    <string name="earring_description">Arete artesanal</string>
+    <string name="earring_long">Arete artesanal hecho a mano con oro encontrado en las exóticas minas de Sámana</string>
+    <string name="action_1">Accion 1</string>
+    <string name="action_2">Accion 2</string>
 </resources>

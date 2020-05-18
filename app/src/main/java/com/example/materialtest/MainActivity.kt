@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.example.materialtest.databinding.ActivityMainBinding
 import com.example.materialtest.ui.app_bars.BarsBottom
 import com.example.materialtest.ui.app_bars.BarsTop
+import com.example.materialtest.ui.cars.CarsDesing
 import com.example.materialtest.ui.floating_button.ActionButton
 import com.example.materialtest.ui.navigation.NavigationBottom
 
@@ -34,6 +35,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnFloatingButton.setOnClickListener {
             val intent = Intent(this, ActionButton::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnCards.setOnClickListener {
+            val intent = Intent(this, CarsDesing::class.java)
             startActivity(intent)
         }
 

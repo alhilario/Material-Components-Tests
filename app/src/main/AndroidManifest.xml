@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.floating_button.ActionButton"></activity>
+        <activity android:name=".ui.cars.CarsDesing"></activity>
+        <activity android:name=".ui.floating_button.ActionButton" />
         <activity android:name=".ui.navigation.NavigationBottom" />
         <activity android:name=".ui.app_bars.BarsTop" />
         <activity android:name=".ui.app_bars.BarsBottom" />

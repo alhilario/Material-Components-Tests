@@ -165,6 +165,7 @@
     <string name="click">Cliqueado</string>
     <string name="phrase">Frase</string>
     <string name="process">Procesar</string>
+    <string name="pop_up">Pop up Dialogs</string>
 
     <string name="sample_data">Sample Data</string>
 </resources>

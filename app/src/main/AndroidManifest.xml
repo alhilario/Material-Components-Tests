@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.pop_up.MenuStuff"></activity>
+        <activity android:name=".ui.pop_up.DrawerDesing" android:label="Bizcochuelos"/>
+        <activity android:name=".ui.pop_up.MenuStuff" />
         <activity android:name=".ui.pop_up.DialogsStuff" />
         <activity android:name=".ui.selection_controls.ChipsStuff" />
         <activity android:name=".ui.cars.CarsDesing" />

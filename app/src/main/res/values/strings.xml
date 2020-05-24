@@ -169,6 +169,18 @@
     <string name="ayuda">Ayuda</string>
     <string name="title_menu">Diego Stuff </string>
     <string name="comidas">Comidas</string>
+    <string name="shopping">Compras</string>
+    <string name="contact_us">Contactanos</string>
+    <string name="open_nav">Abrir Navegacion</string>
+    <string name="close_nav">Cerrar Navegacion</string>
+    <string name="user_compny">Massiel Hurtado</string>
+    <string name="position_company">Adminitradora de bebes</string>
+    <string name="form">Formulario</string>
+    <string name="browser">Navegador</string>
+    <string name="orders">Pedidos</string>
+    <string name="invoice">Facturas</string>
+    <string name="shopping_car">Carrito</string>
+    <string name="shopping_list">Listas</string>
 
     <string name="sample_data">Sample Data</string>
 </resources>

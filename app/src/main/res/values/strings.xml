@@ -162,4 +162,9 @@
     <string name="earring_long">Arete artesanal hecho a mano con oro encontrado en las exóticas minas de Sámana</string>
     <string name="action_1">Accion 1</string>
     <string name="action_2">Accion 2</string>
+    <string name="click">Cliqueado</string>
+    <string name="phrase">Frase</string>
+    <string name="process">Procesar</string>
+
+    <string name="sample_data">Sample Data</string>
 </resources>

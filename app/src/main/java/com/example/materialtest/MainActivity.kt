@@ -9,6 +9,7 @@ import com.example.materialtest.ui.app_bars.BarsTop
 import com.example.materialtest.ui.cars.CarsDesing
 import com.example.materialtest.ui.floating_button.ActionButton
 import com.example.materialtest.ui.navigation.NavigationBottom
+import com.example.materialtest.ui.selection_controls.ChipsStuff
 
 class MainActivity : AppCompatActivity() {
 
@@ -40,6 +41,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnCards.setOnClickListener {
             val intent = Intent(this, CarsDesing::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnChips.setOnClickListener {
+            val intent = Intent(this, ChipsStuff::class.java)
             startActivity(intent)
         }
 

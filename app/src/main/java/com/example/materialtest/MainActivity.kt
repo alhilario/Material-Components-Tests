@@ -10,6 +10,7 @@ import com.example.materialtest.ui.cars.CarsDesing
 import com.example.materialtest.ui.floating_button.ActionButton
 import com.example.materialtest.ui.navigation.NavigationBottom
 import com.example.materialtest.ui.pop_up.DialogsStuff
+import com.example.materialtest.ui.pop_up.MenuStuff
 import com.example.materialtest.ui.selection_controls.ChipsStuff
 
 class MainActivity : AppCompatActivity() {
@@ -52,6 +53,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnDialogs.setOnClickListener {
             val intent = Intent(this, DialogsStuff::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnMenus.setOnClickListener {
+            val intent = Intent(this, MenuStuff::class.java)
             startActivity(intent)
         }
 

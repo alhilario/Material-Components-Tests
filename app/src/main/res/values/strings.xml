@@ -200,6 +200,7 @@
     <string name="share">Compartir</string>
     <string name="upload">Subir a Drive</string>
     <string name="save_to_device">Salvar en el dispositivo</string>
+    <string name="show_snackbar">Mostrar snackbar</string>
 
     <string name="sample_data">Sample Data</string>
 </resources>

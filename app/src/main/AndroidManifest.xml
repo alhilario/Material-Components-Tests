@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.regular.TextFieldStuff"></activity>
+        <activity android:name=".ui.pop_up.SnackbarsStuff"></activity>
+        <activity android:name=".ui.regular.TextFieldStuff" />
         <activity android:name=".ui.pop_up.SheetsBottomDesing" />
         <activity android:name=".ui.selection_controls.SwitchesStuff" />
         <activity android:name=".ui.selection_controls.RadioButtonsStuff" />

@@ -15,6 +15,7 @@ import com.example.materialtest.ui.pop_up.DrawerDesing
 import com.example.materialtest.ui.pop_up.MenuStuff
 import com.example.materialtest.ui.selection_controls.ChecksboxesStuff
 import com.example.materialtest.ui.selection_controls.ChipsStuff
+import com.example.materialtest.ui.selection_controls.RadioButtonsStuff
 
 class MainActivity : AppCompatActivity() {
 
@@ -76,6 +77,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnCheckboxes.setOnClickListener {
             val intent = Intent(this, ChecksboxesStuff::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnRadios.setOnClickListener {
+            val intent = Intent(this, RadioButtonsStuff::class.java)
             startActivity(intent)
         }
 

@@ -187,7 +187,12 @@
     <string name="shoes">Zapatos</string>
     <string name="purse">Carteras</string>
     <string name="earring_solo">Aretes</string>
-    <string name="write_result">Escribe resultados</string>
+    <string name="write_result">Escribe resultado</string>
+    <string name="pick_flavor">Selecione su sabor preferido</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="vanilla">Vainilla</string>
+    <string name="strawberry">Fresa</string>
+    <string name="cocoa">Cacao</string>
 
     <string name="sample_data">Sample Data</string>
 </resources>

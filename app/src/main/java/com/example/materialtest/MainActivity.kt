@@ -13,6 +13,7 @@ import com.example.materialtest.ui.picker.PickerStuff
 import com.example.materialtest.ui.pop_up.DialogsStuff
 import com.example.materialtest.ui.pop_up.DrawerDesing
 import com.example.materialtest.ui.pop_up.MenuStuff
+import com.example.materialtest.ui.pop_up.SheetsBottomDesing
 import com.example.materialtest.ui.selection_controls.ChecksboxesStuff
 import com.example.materialtest.ui.selection_controls.ChipsStuff
 import com.example.materialtest.ui.selection_controls.RadioButtonsStuff
@@ -88,6 +89,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnSwitches.setOnClickListener {
             val intent = Intent(this, SwitchesStuff::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnSheetsBotton.setOnClickListener {
+            val intent = Intent(this, SheetsBottomDesing::class.java)
             startActivity(intent)
         }
 

@@ -181,6 +181,8 @@
     <string name="invoice">Facturas</string>
     <string name="shopping_car">Carrito</string>
     <string name="shopping_list">Listas</string>
+    <string name="show_date_picker">Muestra el calendario</string>
+    <string name="select_date">Selecione una Fecha</string>
 
     <string name="sample_data">Sample Data</string>
 </resources>

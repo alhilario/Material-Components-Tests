@@ -9,6 +9,7 @@ import com.example.materialtest.ui.app_bars.BarsTop
 import com.example.materialtest.ui.cars.CarsDesing
 import com.example.materialtest.ui.floating_button.ActionButton
 import com.example.materialtest.ui.navigation.NavigationBottom
+import com.example.materialtest.ui.picker.PickerStuff
 import com.example.materialtest.ui.pop_up.DialogsStuff
 import com.example.materialtest.ui.pop_up.DrawerDesing
 import com.example.materialtest.ui.pop_up.MenuStuff
@@ -64,6 +65,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnDrawer.setOnClickListener {
             val intent = Intent(this, DrawerDesing::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnPickers.setOnClickListener {
+            val intent = Intent(this, PickerStuff::class.java)
             startActivity(intent)
         }
 

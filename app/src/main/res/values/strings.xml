@@ -183,6 +183,11 @@
     <string name="shopping_list">Listas</string>
     <string name="show_date_picker">Muestra el calendario</string>
     <string name="select_date">Selecione una Fecha</string>
+    <string name="select_product">Selecione su producto favoritos</string>
+    <string name="shoes">Zapatos</string>
+    <string name="purse">Carteras</string>
+    <string name="earring_solo">Aretes</string>
+    <string name="write_result">Escribe resultados</string>
 
     <string name="sample_data">Sample Data</string>
 </resources>

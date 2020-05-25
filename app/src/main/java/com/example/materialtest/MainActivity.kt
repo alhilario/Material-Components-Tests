@@ -13,6 +13,7 @@ import com.example.materialtest.ui.picker.PickerStuff
 import com.example.materialtest.ui.pop_up.DialogsStuff
 import com.example.materialtest.ui.pop_up.DrawerDesing
 import com.example.materialtest.ui.pop_up.MenuStuff
+import com.example.materialtest.ui.selection_controls.ChecksboxesStuff
 import com.example.materialtest.ui.selection_controls.ChipsStuff
 
 class MainActivity : AppCompatActivity() {
@@ -70,6 +71,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnPickers.setOnClickListener {
             val intent = Intent(this, PickerStuff::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnCheckboxes.setOnClickListener {
+            val intent = Intent(this, ChecksboxesStuff::class.java)
             startActivity(intent)
         }
 

@@ -17,7 +17,7 @@
     <string name="switches">Control Switches</string>
     <string name="sheets_bottom">Sheets Bottom</string>
     <string name="sheets_side">Sheets Sides</string>
-    <string name="sliders">Sliders</string>
+    <string name="spinner">Spinner</string>
     <string name="snackbars">Snackbars</string>
     <string name="tabs">Tabs</string>
     <string name="text_fields">Text Fields</string>

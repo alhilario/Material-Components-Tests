@@ -178,7 +178,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/switches"
-        app:layout_constraintBottom_toTopOf="@+id/btn_sliders"
+        app:layout_constraintBottom_toTopOf="@+id/btn_snackbars"
         app:layout_constraintEnd_toStartOf="@+id/btn_sheets_botton"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -193,13 +193,13 @@
         android:layout_marginEnd="8dp"
         android:text="@string/sheets_bottom"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_switches"
-        app:layout_constraintEnd_toStartOf="@+id/btn_sheets_side"
+        app:layout_constraintEnd_toStartOf="@+id/btn_text_fields"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btn_switches"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
     <Button
-        android:id="@+id/btn_sheets_side"
+        android:id="@+id/btn_text_fields"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -212,32 +212,19 @@
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
 
     <Button
-        android:id="@+id/btn_sliders"
+        android:id="@+id/btn_snackbars"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/sliders"
-        app:layout_constraintBottom_toTopOf="@+id/btn_text_fields"
-        app:layout_constraintEnd_toStartOf="@+id/btn_snackbars"
+        android:text="@string/snackbars"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sample_data"
+        app:layout_constraintEnd_toStartOf="@+id/btn_tabs"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_switches"
-        style="@style/Widget.MaterialComponents.Button.TextButton" />
-
-    <Button
-        android:id="@+id/btn_snackbars"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:text="@string/snackbars"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btn_sliders"
-        app:layout_constraintEnd_toStartOf="@+id/btn_tabs"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_sliders"
         style="@style/Widget.MaterialComponents.Button.TextButton" />
 
     <Button
@@ -245,26 +232,39 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="8dp"
         android:text="@string/tabs"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_snackbars"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_spinner"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btn_snackbars"
         style="@style/Widget.MaterialComponents.Button.TextButton" />
 
     <Button
-        android:id="@+id/btn_text_fields"
+        android:id="@+id/btn_spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/spinner"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_tabs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_tabs"
+        style="@style/Widget.MaterialComponents.Button.TextButton" />
+
+    <Button
+        android:id="@+id/btn_sample_data"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/text_fields"
+        android:text="@string/sample_data"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_sliders" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_snackbars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

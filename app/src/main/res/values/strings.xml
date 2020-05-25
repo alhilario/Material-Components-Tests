@@ -193,6 +193,10 @@
     <string name="vanilla">Vainilla</string>
     <string name="strawberry">Fresa</string>
     <string name="cocoa">Cacao</string>
+    <string name="setting">Configuración</string>
+    <string name="wifi">Wi-fi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="do_not_disturb">No interrumpir</string>
 
     <string name="sample_data">Sample Data</string>
 </resources>

@@ -139,7 +139,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/pickers"
-        app:layout_constraintBottom_toTopOf="@+id/btn_schitches"
+        app:layout_constraintBottom_toTopOf="@+id/btn_switches"
         app:layout_constraintEnd_toStartOf="@+id/btn_checkboxes"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -170,7 +170,7 @@
         app:layout_constraintStart_toEndOf="@+id/btn_checkboxes" />
 
     <Button
-        android:id="@+id/btn_schitches"
+        android:id="@+id/btn_switches"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -192,10 +192,10 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:text="@string/sheets_bottom"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btn_schitches"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_switches"
         app:layout_constraintEnd_toStartOf="@+id/btn_sheets_side"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btn_schitches"
+        app:layout_constraintStart_toEndOf="@+id/btn_switches"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
 
     <Button
@@ -224,7 +224,7 @@
         app:layout_constraintEnd_toStartOf="@+id/btn_snackbars"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_schitches"
+        app:layout_constraintTop_toBottomOf="@+id/btn_switches"
         style="@style/Widget.MaterialComponents.Button.TextButton" />
 
     <Button

@@ -201,6 +201,9 @@
     <string name="upload">Subir a Drive</string>
     <string name="save_to_device">Salvar en el dispositivo</string>
     <string name="show_snackbar">Mostrar snackbar</string>
+    <string name="explore">Explorar</string>
+    <string name="flight">Vuelos</string>
+    <string name="trips">Viajes</string>
 
     <string name="sample_data">Sample Data</string>
 </resources>

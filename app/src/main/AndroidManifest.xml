@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.pop_up.SnackbarsStuff"></activity>
+        <activity
+            android:name=".ui.regular.TabsStuff"
+            android:label="Ivanna Travel" />
+        <activity android:name=".ui.pop_up.SnackbarsStuff" />
         <activity android:name=".ui.regular.TextFieldStuff" />
         <activity android:name=".ui.pop_up.SheetsBottomDesing" />
         <activity android:name=".ui.selection_controls.SwitchesStuff" />

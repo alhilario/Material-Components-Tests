@@ -39,6 +39,18 @@ class NavigationBottom : AppCompatActivity() {
 
         val bottomNavigationView = binding.bottomNavigation
 
+        var badgeProduct = bottomNavigationView.getOrCreateBadge(R.id.bottom_bar_products)
+        var badgeOffert = bottomNavigationView.getOrCreateBadge(R.id.bottom_bar_offerts)
+        var badgeStore = bottomNavigationView.getOrCreateBadge(R.id.bottom_bar_stores)
+
+        badgeProduct.isVisible
+
+        badgeOffert.isVisible
+        badgeOffert.number = 99
+
+        badgeStore.isVisible
+        badgeStore.number = 1000
+
         bottomNavigationView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
 
         setContentView(binding.root)

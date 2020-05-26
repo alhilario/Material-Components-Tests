@@ -22,7 +22,7 @@ class SnackbarsStuff : AppCompatActivity() {
             val snackBar: Snackbar = Snackbar.make(it, "Punchala punchala punchala", Snackbar.LENGTH_LONG)
 
             snackBar.setAction("Okay", {
-                buttonShow.setText("Se montro")
+                buttonShow.setText("Se mostro")
             })
             snackBar.setActionTextColor(Color.BLUE)
             snackBar.setBackgroundTint(Color.GRAY)

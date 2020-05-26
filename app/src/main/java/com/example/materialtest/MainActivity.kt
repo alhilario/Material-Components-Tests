@@ -11,6 +11,7 @@ import com.example.materialtest.ui.floating_button.ActionButton
 import com.example.materialtest.ui.navigation.NavigationBottom
 import com.example.materialtest.ui.picker.PickerStuff
 import com.example.materialtest.ui.pop_up.*
+import com.example.materialtest.ui.regular.SpinnerStuff
 import com.example.materialtest.ui.regular.TabsStuff
 import com.example.materialtest.ui.regular.TextFieldStuff
 import com.example.materialtest.ui.selection_controls.ChecksboxesStuff
@@ -108,6 +109,11 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnTabs.setOnClickListener {
             val intent = Intent(this, TabsStuff::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnSpinner.setOnClickListener {
+            val intent = Intent(this, SpinnerStuff::class.java)
             startActivity(intent)
         }
 
